@@ -1,3 +1,5 @@
+# use this github actions workflow file below, let's see.
+
 name: Build, Tag, and Push Python Applications
 
 on:
@@ -37,10 +39,11 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build --build-arg SCRIPT=${{ matrix.script }} -t ibkwilly/my-python:${{ matrix.script }} .
+          # Sanitize the script name for Docker tag
+          TAG_NAME=$(echo "${{ matrix.script }}" | tr '[:upper:]' '[:lower:]' | sed 's/[[:space:]\\]//g; s/[^a-z0-9.-]//g')
+          docker build --build-arg SCRIPT="${{ matrix.script }}" -t ibkwilly/my-python:$TAG_NAME .
 
-      - name: Build Docker Image
+      - name: Push Docker Image
         run: |
-          # Sanitize the script name to create a valid Docker tag
-          TAG_NAME=$(echo "${{ matrix.script }}" | sed 's/[[:space:]]/_/g')
-          docker build --build-arg SCRIPT=${{ matrix.script }} -t ibkwilly/my-python:$TAG_NAME .
+          TAG_NAME=$(echo "${{ matrix.script }}" | tr '[:upper:]' '[:lower:]' | sed 's/[[:space:]\\]//g; s/[^a-z0-9.-]//g')
+          docker push ibkwilly/my-python:$TAG_NAME
