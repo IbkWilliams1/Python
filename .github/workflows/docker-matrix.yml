@@ -39,6 +39,8 @@ jobs:
         run: |
           docker build --build-arg SCRIPT=${{ matrix.script }} -t ibkwilly/my-python:${{ matrix.script }} .
 
-      - name: Push Docker Image
+      - name: Build Docker Image
         run: |
-          docker push ibkwilly/my-python:${{ matrix.script }}
+          # Sanitize the script name to create a valid Docker tag
+          TAG_NAME=$(echo "${{ matrix.script }}" | sed 's/[[:space:]]/_/g')
+          docker build --build-arg SCRIPT=${{ matrix.script }} -t ibkwilly/my-python:$TAG_NAME .
