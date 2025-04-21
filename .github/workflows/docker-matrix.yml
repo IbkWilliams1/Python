@@ -19,7 +19,8 @@ jobs:
       matrix:
         script:
           - 8_puzzle.py
-          - A\ solution\ to\ project\ euler\ problem\ 3.py
+          - Strings.py
+          - Snake-Water-Gun-Game.py
           - Add_two_Linked_List.py
           - add_two_number.py
           - add_two_nums.py
