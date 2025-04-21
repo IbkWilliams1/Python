@@ -15,7 +15,8 @@ jobs:
 
     strategy:
       matrix:
-        s - 8_puzzle.py
+        script:
+          - 8_puzzle.py
           - A\ solution\ to\ project\ euler\ problem\ 3.py
           - Add_two_Linked_List.py
           - add_two_number.py
@@ -23,226 +24,21 @@ jobs:
           # - advanced_calculator.py
           # - agecalculator.py
           # - alexa_news_headlines.py
-          # - Anonymous_TextApp.py
-          # - AREA\ OF\ TRIANGLE.py
-          # - area_of_square_app.py
-          # - AreaOfTriangle.py
-          # - ARKA.py
-          # - Armstrong_number.py
-          # - armstrongnumber.py
-          # - ASCIIvaluecharacter.py
-          # - automail.py
-          # - avg_xdspam_confidence.py
-          # - backup_automater_services.py
-          # - balance_parenthesis.py
-          # - Base\ Converter\ Number\ system.py
-          # - batch_file_rename.py
-          # - Battery_notifier.py
-          # - Binary\ Coefficients.py
-          # - binary\ search.py
-          # - Binary_search.py
-          # - binary_search_tree.py
-          # - Binary_to_Decimal.py
-          # - binod.py
-          # - birthdays.py
-          # - blackjack.py
-          # - blackJackGUI.py
-          # - bodymass.py
-          # - bookstore_manangement_system.py
-          # - BruteForce.py
-          # - Caesar\ Cipher\ Encoder\ \&\ Decoder.py
-          # - calc_area.py
-          # - Calculate\ resistance.py
-          # - Calculator\ with\ simple\ ui.py
-          # - calculator.py
-          # - calculator-gui.py
-          # - Calendar\ \(GUI\).py
-          # - cartesian_product.py
-          # - changemac.py
-          # - chaos.py
-          # - check\ whether\ the\ string\ is\ Symmetrical\ or\ Palindrome.py
-          # - check_file.py
-          # - check_for_sqlite_files.py
-          # - check_input.py
-          # - check_internet_con.py
-          # - check_prime.py
-          # - chicks_n_rabs.py
-          # - Chrome\ Dino\ Automater.py
-          # - classicIndianCardMatch.py
-          # - Classification_human_or_horse.py
-          # - CliYoutubeDownloader.py
-          # - cloning_a_list.py
-          # - Collatz-Conjecture.py
-          # - colorma_as_color.py
-          # - colour\ spiral.py
-          # - compass_code.py
-          # - consonant.py
-          # - Conversation.py
-          # - convert\ celsius\ into\ fahrenheit.py
-          # - convert_time.py
-          # - convert_wind_direction_to_degrees.py
-          # - count\ the\ numbers\ of\ two\ vovels.py
-          # - CountMillionCharacter.py
-          # - CountMillionCharacters-2.0.py
-          # - Crack_password.py
-          # - create\ password\ validity\ in\ python.py
-          # - create_dir_if_not_there.py
-          # - Credit_Card_Validator.py
-          # - cricket_live_score.py
-          # - cricket_news.py
-          # - Cricket_score.py
-          # - daily_checks.py
-          # - daily_horoscope.py
-          # - date-timeclient.py
-          # - date-timeserver.py
-          # - Day_of_week.py
-          # - days_from_date.py
-          # - dec_to_hex.py
-          # - Decimal\ number\ to\ binary\ function.py
-          # - decimal\ to\ binary.py
-          # - Decimal_To_Binary.py
-          # - Delete_Linked_List.py
-          # - Detect_Remove_loop.py
-          # - diamond.py
-          # - dice.py
-          # - dice_rolling_simulator.py
-          # - diceV2_dynamic.py
-          # - diction.py
-          # - Dictionary\ opperations\ \(input,update\ a\ dict\).py
-          # - Differentiate_List.py
-          # - digital_clock.py
-          # - dir_test.py
-          # - Divide\ Operator.py
-          # - divisors_of_a_number.py
-          # - Email-Automation.py
-          # - encrypter_decrypter_gui.py
-          # - encrypter-decrypter-gui.py
-          # - Encryption\ using\ base64.py
-          # - EncryptionTool.py
-          # - encryptsys.py
-          # - env_check.py
-          # - equations.py
-          # - ex20.py
-          # - Exception_Handling_in_Python.py
-          # - Extract_Text_from_image.py
-          # - facebook\ id\ hack.py
-          # - facebook-autologin-bot.py
-          # - factorial_perm_comp.py
-          # - factors.py
-          # - fastapi.py
-          # - fetch_news.py
-          # - fibonacci.py
-          # - Fibonacci_sequence_recursive_sol.py
-          # - FibonacciNumbersWithGenerators.py
-          # - fibonici\ series.py
-          # - file_ext_changer.py
-          # - fileinfo.py
-          # - Find\ current\ weather\ of\ any\ city\ using\ openweathermap\ API.py
-          # - FIND\ FACTORIAL\ OF\ A\ NUMBER.py
-          # - find_cube_root.py
-          # - find_prime.py
-          # - finding\ LCM.py
-          # - FindingResolutionOfAnImage.py
-          # - FizzBuzz.py
-          # - folder_size.py
-          # - four_digit_num_combination.py
-          # - friday.py
-          # - ftp_send_receive.py
-          # - gambler.py
-          # - gcd.py
-          # - Generate\ a\ random\ number\ between\ 0\ to\ 9.py
-          # - generate_permutations.py
-          # - get_crypto_price.py
-          # - get_info_remoute_srv.py
-          # - get_likes_on_FB.py
-          # - get_youtube_view.py
-          # - google.py
-          # - Google_News.py
-          # - googlemaps.py
-          # - googleweb.py
-          # - greaterno.py
-          # - Gregorian_Calendar.py
-          # - Grocery\ calculator.py
-          # - GroupSms_Way2.py
-          # - gstin_scraper.py
-          # - Guess_the_number_game.py
-          # - Guessing_Game.py
-          # - gui_calculator.py
-          # - Hangman.py
-          # - happy_num.py
-          # - heap_sort.py
-          # - helloworld.py
-          # - Hotel-Management.py
-          # - how\ to\ add\ three\ numbers\ and\ find\ type\ in\ python.py
-          # - how\ to\ display\ the\ fibonacci\ sequence\ up\ to\ n-.py
-          # - Image_resize.py
-          # - index.py
-          # - Infix_to_Postfix.py
-          # - input\ matrice,product\ any\ order!.py
-          # - Insert_operation_on_Linked_List.py
-          # - insertion_sort.py
-          # - internet_connection_py3.py
-          # - invisible_clock.py
-          # - iprint.py
-          # - is_number.py
-          # - jee_result.py
-          # - Job_scheduling.py
-          # - JsonParser.py
-          # - Kilometerstomile.py
-          # - kmp_str_search.py
-          # - largestno.py
-          # - lcm.py
-          # - leap\ year.py
-          # - length.py
-          # - Letter_Counter.py
-          # - letter_frequency.py
-          # - levenshtein_distance.py
-          # - linear\ search.py
-          # - linear_search.py
-          # - List.py
-          # - live_sketch.py
-          # - loader.py
-          # - login.py
-          # - logs.py
-          # - longest_increasing_subsequence_length.py
-          # - love_turtle.py
-          # - Luhn_Algorithm.py
-          # - luhn_algorithm_for_credit_card_validation.py
-          # - Mad\ Libs\ Generator.py
-          # - magic_8_ball.py
-          # - magic8ball.py
-          # - mapit.py
-          # - meme_maker.py
-          # - Memory_game.py
-          # - memorygame.py
-          # - merge.pymover\ function.py
-          - WeatherGUI.py
-          - Web\ Socket.py
-          - Web_Scraper.py
-          - webcam.py
-          - whatsapp-monitor.py
-          - whatsapp-schedule.py
-          - wifi\ hack\ by\ brutefore.py
-          - wiki_random.py
-          - wikipedia.py
-          - WikipediaModule.py
-          - work_connect.py
-          - write_excel_file.py
-          - youtubedownloader.py
 
     steps:
-    - name: Checkout Code
-      uses: actions/checkout@v3
+      - name: Checkout Code
+        uses: actions/checkout@v3
 
-    - name: Log in to DockerHub
-      uses: docker/login-action@v2
-      with:
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+      - name: Log in to DockerHub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
 
-    - name: Build Docker Image
-      run: |
-        docker build --build-arg SCRIPT=${{ matrix.script }} -t ibkwilly/my-python:${{ matrix.script }} .
-    - name: Push Docker Image
-      run: |
-        docker push ibkwilly/my-python:${{ matrix.script }}
+      - name: Build Docker Image
+        run: |
+          docker build --build-arg SCRIPT=${{ matrix.script }} -t ibkwilly/my-python:${{ matrix.script }} .
+
+      - name: Push Docker Image
+        run: |
+          docker push ibkwilly/my-python:${{ matrix.script }}
