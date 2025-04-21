@@ -16,11 +16,405 @@ jobs:
     strategy:
       matrix:
         script:
-          # List all Python scripts in the repository
+          - 8_puzzle.py
+          - A\ solution\ to\ project\ euler\ problem\ 3.py
+          - Add_two_Linked_List.py
+          - add_two_number.py
+          - add_two_nums.py
+          - advanced_calculator.py
+          - agecalculator.py
+          - alexa_news_headlines.py
+          - Anonymous_TextApp.py
+          - AREA\ OF\ TRIANGLE.py
+          - area_of_square_app.py
+          - AreaOfTriangle.py
+          - ARKA.py
+          - Armstrong_number.py
+          - armstrongnumber.py
+          - ASCIIvaluecharacter.py
+          - automail.py
+          - avg_xdspam_confidence.py
+          - backup_automater_services.py
+          - balance_parenthesis.py
+          - Base\ Converter\ Number\ system.py
+          - batch_file_rename.py
+          - Battery_notifier.py
+          - Binary\ Coefficients.py
+          - binary\ search.py
+          - Binary_search.py
+          - binary_search_tree.py
+          - Binary_to_Decimal.py
+          - binod.py
+          - birthdays.py
+          - blackjack.py
+          - blackJackGUI.py
+          - bodymass.py
+          - bookstore_manangement_system.py
+          - BruteForce.py
+          - Caesar\ Cipher\ Encoder\ \&\ Decoder.py
+          - calc_area.py
+          - Calculate\ resistance.py
+          - Calculator\ with\ simple\ ui.py
+          - calculator.py
+          - calculator-gui.py
+          - Calendar\ \(GUI\).py
+          - cartesian_product.py
+          - changemac.py
+          - chaos.py
+          - check\ whether\ the\ string\ is\ Symmetrical\ or\ Palindrome.py
+          - check_file.py
+          - check_for_sqlite_files.py
+          - check_input.py
+          - check_internet_con.py
+          - check_prime.py
+          - chicks_n_rabs.py
+          - Chrome\ Dino\ Automater.py
+          - classicIndianCardMatch.py
+          - Classification_human_or_horse.py
+          - CliYoutubeDownloader.py
+          - cloning_a_list.py
+          - Collatz-Conjecture.py
+          - colorma_as_color.py
+          - colour\ spiral.py
+          - compass_code.py
+          - consonant.py
+          - Conversation.py
+          - convert\ celsius\ into\ fahrenheit.py
+          - convert_time.py
+          - convert_wind_direction_to_degrees.py
+          - count\ the\ numbers\ of\ two\ vovels.py
+          - CountMillionCharacter.py
+          - CountMillionCharacters-2.0.py
+          - Crack_password.py
+          - create\ password\ validity\ in\ python.py
+          - create_dir_if_not_there.py
+          - Credit_Card_Validator.py
+          - cricket_live_score.py
+          - cricket_news.py
+          - Cricket_score.py
+          - daily_checks.py
+          - daily_horoscope.py
+          - date-timeclient.py
+          - date-timeserver.py
+          - Day_of_week.py
+          - days_from_date.py
+          - dec_to_hex.py
+          - Decimal\ number\ to\ binary\ function.py
+          - decimal\ to\ binary.py
+          - Decimal_To_Binary.py
+          - Delete_Linked_List.py
+          - Detect_Remove_loop.py
+          - diamond.py
+          - dice.py
+          - dice_rolling_simulator.py
+          - diceV2_dynamic.py
+          - diction.py
+          - Dictionary\ opperations\ \(input,update\ a\ dict\).py
+          - Differentiate_List.py
+          - digital_clock.py
+          - dir_test.py
+          - Divide\ Operator.py
+          - divisors_of_a_number.py
+          - Email-Automation.py
+          - encrypter_decrypter_gui.py
+          - encrypter-decrypter-gui.py
+          - Encryption\ using\ base64.py
           - EncryptionTool.py
-          # Add more scripts here as needed
-          # - AnotherScript.py
-          # - YetAnotherScript.py
+          - encryptsys.py
+          - env_check.py
+          - equations.py
+          - ex20.py
+          - Exception_Handling_in_Python.py
+          - Extract_Text_from_image.py
+          - facebook\ id\ hack.py
+          - facebook-autologin-bot.py
+          - factorial_perm_comp.py
+          - factors.py
+          - fastapi.py
+          - fetch_news.py
+          - fibonacci.py
+          - Fibonacci_sequence_recursive_sol.py
+          - FibonacciNumbersWithGenerators.py
+          - fibonici\ series.py
+          - file_ext_changer.py
+          - fileinfo.py
+          - Find\ current\ weather\ of\ any\ city\ using\ openweathermap\ API.py
+          - FIND\ FACTORIAL\ OF\ A\ NUMBER.py
+          - find_cube_root.py
+          - find_prime.py
+          - finding\ LCM.py
+          - FindingResolutionOfAnImage.py
+          - FizzBuzz.py
+          - folder_size.py
+          - four_digit_num_combination.py
+          - friday.py
+          - ftp_send_receive.py
+          - gambler.py
+          - gcd.py
+          - Generate\ a\ random\ number\ between\ 0\ to\ 9.py
+          - generate_permutations.py
+          - get_crypto_price.py
+          - get_info_remoute_srv.py
+          - get_likes_on_FB.py
+          - get_youtube_view.py
+          - google.py
+          - Google_News.py
+          - googlemaps.py
+          - googleweb.py
+          - greaterno.py
+          - Gregorian_Calendar.py
+          - Grocery\ calculator.py
+          - GroupSms_Way2.py
+          - gstin_scraper.py
+          - Guess_the_number_game.py
+          - Guessing_Game.py
+          - gui_calculator.py
+          - Hangman.py
+          - happy_num.py
+          - heap_sort.py
+          - helloworld.py
+          - Hotel-Management.py
+          - how\ to\ add\ three\ numbers\ and\ find\ type\ in\ python.py
+          - how\ to\ display\ the\ fibonacci\ sequence\ up\ to\ n-.py
+          - Image_resize.py
+          - index.py
+          - Infix_to_Postfix.py
+          - input\ matrice,product\ any\ order!.py
+          - Insert_operation_on_Linked_List.py
+          - insertion_sort.py
+          - internet_connection_py3.py
+          - invisible_clock.py
+          - iprint.py
+          - is_number.py
+          - jee_result.py
+          - Job_scheduling.py
+          - JsonParser.py
+          - Kilometerstomile.py
+          - kmp_str_search.py
+          - largestno.py
+          - lcm.py
+          - leap\ year.py
+          - length.py
+          - Letter_Counter.py
+          - letter_frequency.py
+          - levenshtein_distance.py
+          - linear\ search.py
+          - linear_search.py
+          - List.py
+          - live_sketch.py
+          - loader.py
+          - login.py
+          - logs.py
+          - longest_increasing_subsequence_length.py
+          - love_turtle.py
+          - Luhn_Algorithm.py
+          - luhn_algorithm_for_credit_card_validation.py
+          - Mad\ Libs\ Generator.py
+          - magic_8_ball.py
+          - magic8ball.py
+          - mapit.py
+          - meme_maker.py
+          - Memory_game.py
+          - memorygame.py
+          - merge.py
+          - Merge_linked_list.py
+          - missing\ number\ from\ list.py
+          - mobilePhoneSpecsScrapper.py
+          - MobiusFunction.py
+          - move_files_over_x_days.py
+          - movie_details.py
+          - Mp3_media_player.py
+          - multiplication_table.py
+          - Multiply.py
+          - MySQL_Databses.py
+          - nDigitNumberCombinations.py
+          - new.py
+          - new_pattern.py
+          - new_script.py
+          - news_articles__scraper.py
+          - next_number.py
+          - nmap_scan.py
+          - nslookup_check.py
+          - number\ guessing.py
+          - Number\ reverse.py
+          - numeric_password_cracker.py
+          - num-py.py
+          - oneeven.py
+          - Organise.py
+          - osinfo.py
+          - Palindrome_Checker.py
+          - pan.py
+          - password_checker.py
+          - password_cracker.py
+          - password_manager.py
+          - passwordGen.py
+          - passwordGenerator.py
+          - PDFtoAudiobook.py
+          - personal_translator.py
+          - ph_email.py
+          - ping_servers.py
+          - ping_subnet.py
+          - polygon.py
+          - Polyline.py
+          - Pomodoro\ \(tkinter\).py
+          - PONG_GAME.py
+          - portscanner.py
+          - positiveNegetive.py
+          - power_of_n.py
+          - power_of_two.py
+          - powerdown_startup.py
+          - powers\ of\ 2.py
+          - powerup_checks.py
+          - Prime_number.py
+          - print\ hello\ world.py
+          - prison_break_scrapper.py
+          - Program\ of\ Reverse\ of\ any\ number.py
+          - Program\ to\ print\ table\ of\ given\ number.py
+          - Program\ to\ reverse\ Linked\ List\( Recursive\ solution\).py
+          - pscheck.py
+          - psunotify.py
+          - puttylogs.py
+          - pyauto.py
+          - pygame.py
+          - pyhton_array.py
+          - pythagoreanTriplets.py
+          - Python\ Distance.py
+          - python\ program\ for\ finding\ square\ root\ for\ positive\ number.py
+          - Python\ Program\ for\ Product\ of\ unique\ prime\ factors\ of\ a\ number.py
+          - Python\ Program\ for\ Tower\ of\ Hanoi.py
+          - Python\ Program\ to\ Count\ the\ Number\ of\ Each\ Vowel.py
+          - Python\ Program\ to\ Display\ Fibonacci\ Sequence\ Using\ Recursion.py
+          - Python\ Program\ to\ Find\ LCM.py
+          - Python\ Program\ to\ Merge\ Mails.py
+          - Python\ Program\ to\ Print\ the\ Fibonacci\ sequence.py
+          - Python\ Program\ to\ Remove\ Punctuations\ from\ a\ String.py
+          - Python\ Program\ to\ Reverse\ a\ linked\ list.py
+          - Python\ Program\ to\ Sort\ Words\ in\ Alphabetic\ Order.py
+          - Python\ Program\ to\ Transpose\ a\ Matrix.py
+          - python\ Space\ Invader\ game.py
+          - Python\ Voice\ Generator.py
+          - python_sms.py
+          - Python_swapping.py
+          - python_webscraper.py
+          - Python-Array-Equilibrium-Index.py
+          - pythonVideoDownloader.py
+          - qrcode.py
+          - qrdecoder.py
+          - QuadraticCalc.py
+          - quiz_game.py
+          - quote.py
+          - Random\ Password\ Generator.py
+          - random_file_move.py
+          - RandomDice.py
+          - randomloadingmessage.py
+          - Randomnumber.py
+          - RandomNumberGame.py
+          - random-sentences.py
+          - rangoli.py
+          - read_excel_file.py
+          - ReadFromCSV.py
+          - recursive-fibonacci.py
+          - recursiveStrings.py
+          - recyclebin.py
+          - remove\ a\ character\ from\ a\ file\ and\ rewrite.py
+          - repeat.py
+          - replacetext.py
+          - Reverse_list_in_groups.py
+          - reversed_pattern3.py
+          - rock_paper_scissor_game.py
+          - rook.py
+          - Rotate_Linked_List.py
+          - rotate_string.py
+          - rotatelist.py
+          - russian_roulette.py
+          - scalg.py
+          - scrap_file.py
+          - script_count.py
+          - script_listing.py
+          - Secret\ message\ generator\ GUI\ by\ tkinter.py
+          - sendemail.py
+          - sensors_information.py
+          - serial_scanner.py
+          - sha1.py
+          - Shortest\ Distance\ between\ Two\ Lines.py
+          - sierpinski_triangle.py
+          - simpleInterest.py
+          - SimpleStopWatch.py
+          - simulate_memory_cpu.py
+          - singly_linked_list.py
+          - size\(resolution\)image.py
+          - slack_message.py
+          - snake.py
+          - snake_case_renamer_depth_one.py
+          - Snake-Water-Gun-Game.py
+          - solution\ to\ euler\ project\ problem\ 10.py
+          - sorting_algos.py
+          - SOUNDEX.py
+          - soundex_algorithm.py
+          - spiralmatrix.py
+          - Split_Circular_Linked_List.py
+          - spotifyAccount.py
+          - sqlite_check.py
+          - sqlite_table_check.py
+          - stack.py
+          - stackF_Harsh2255.py
+          - String_Palindrome.py
+          - string_rotation.py
+          - Strings.py
+          - StringToBinary.py
+          - sudoku.py
+          - Sum\ of\ digits\ of\ a\ number.py
+          - sum_of_digits_of_a_number.py
+          - swap.py
+          - TaskManager.py
+          - TaskPlanner.py
+          - testlines.py
+          - text_file_replace.py
+          - text_to_pig_latin.py
+          - tf_idf_generator.py
+          - thread_signal.py
+          - Tic_Tac_Toe.py
+          - tic_tak_toe.py
+          - tic-tac-toe.py
+          - TicTacToe.py
+          - tik_tak.py
+          - time_delta.py
+          - Timetable_Operations.py
+          - To\ find\ the\ largest\ number\ between\ 3\ numbers.py
+          - To\ print\ series\ 1,12,123,1234......py
+          - totaldigits.py
+          - translation_of_sizes_of_underwear_RU.py
+          - triangles.py
+          - TTS.py
+          - tuple.py
+          - turtle_shapes_made.py
+          - Turtle_Star.py
+          - Tweet\ Pre-Processing.py
+          - tweeter.py
+          - twitter_post_scraper.py
+          - two_num.py
+          - Type\ of\ angles\ of\ a\ triangle.py
+          - Type_of_angles_of_triangle.py
+          - Unit\ Digit\ of\ a\ raised\ to\ power\ b.py
+          - url_shortner.py
+          - videodownloder.py
+          - vigenere_cipher.py
+          - Voice\ Command\ Calculator.py
+          - voice.py
+          - vowel\ remover\ function.py
+          - WeatherGUI.py
+          - Web\ Socket.py
+          - Web_Scraper.py
+          - webcam.py
+          - whatsapp-monitor.py
+          - whatsapp-schedule.py
+          - wifi\ hack\ by\ brutefore.py
+          - wiki_random.py
+          - wikipedia.py
+          - WikipediaModule.py
+          - work_connect.py
+          - write_excel_file.py
+          - youtubedownloader.py
 
     steps:
     - name: Checkout Code

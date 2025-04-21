@@ -1,17 +1,18 @@
 # Use an official Python runtime as the base image
 FROM python:3.9-slim
 
-# Set the working directory inside the container
+# Set the working directory in the container
 WORKDIR /app
 
-# Copy all files from the repository into the container
-COPY . /app/
+# Copy the Python script specified in the build argument
+# The script name is passed via the --build-arg SCRIPT=<script_name>
+ARG SCRIPT
+COPY ${SCRIPT} /app/${SCRIPT}
 
-# Install necessary dependencies (if there are any additional required modules, specify them here)
-RUN python -m pip install --upgrade pip
+# Install any required dependencies (if a requirements.txt exists)
+# Uncomment the following lines if your scripts have dependencies
+# COPY requirements.txt /app/requirements.txt
+# RUN pip install --no-cache-dir -r requirements.txt
 
-# Accept the script to run as an argument
-ARG SCRIPT=main.py
-
-# Default command to run the specified script
-CMD ["sh", "-c", "python ${SCRIPT}"]
+# Set the default command to run the Python script
+CMD ["python", "/app/${SCRIPT}"]
